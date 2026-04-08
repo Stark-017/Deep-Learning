@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Stark-017/Deep-Learning.git'
+                git branch : 'main', url :'https://github.com/Stark-017/Deep-Learning.git'
             }
         }
 
